@@ -1,0 +1,7 @@
+{
+    "editor.wordWrapColumn": 180,
+    "editor.wordWrap": "wordWrapColumn",
+    "python.formatting.autopep8Args": [
+        "--max-line-length\", \"190\""
+    ]
+}
