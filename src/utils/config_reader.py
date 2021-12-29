@@ -34,7 +34,6 @@ def read_config(config_path):
     try:
         config = configparser.ConfigParser()
         config.read(config_path)
-        print(config['Rules']['Sheet'])
         return config
     except:
         print("some error occured")

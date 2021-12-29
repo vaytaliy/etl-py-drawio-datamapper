@@ -1,9 +1,7 @@
-import configparser
 from openpyxl import load_workbook, Workbook
 from openpyxl.utils.cell import coordinate_from_string, column_index_from_string
 from collections import namedtuple
 from utils import config_reader
-from openpyxl.worksheet import worksheet
 from utils import constants
 
 
@@ -27,7 +25,6 @@ def get_mapping_sheet_data(config, excel_path: str):
     merged_cells_fix(sheet_data_dict['mapping_data'][constants.TRG_COL_DATATYPE_VAL])
     merged_cells_fix(sheet_data_dict['mapping_data'][constants.TRG_COL_MODE_VAL])
     merged_cells_fix(sheet_data_dict['mapping_data'][constants.TRG_COL_SENSITIVE_FLAG])
-    print("ok")
 
     return (sheet_data_dict, target_table_name)
 

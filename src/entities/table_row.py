@@ -1,4 +1,3 @@
-import re
 from entities.identity import Id
 
 class TableRow:

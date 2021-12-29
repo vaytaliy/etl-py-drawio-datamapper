@@ -7,7 +7,7 @@
         {
             "name": "Python: Текущий файл",
             "type": "python",
-            "args": ["-c","D:/Projects/DrawIOautomap/mappingdiagcreator/config/config_template.ini","-e","D:/Projects/DrawIOautomap/Mapping - Scan history BT.xlsm"],
+            "args": ["-c","D:/Projects/DrawIOautomap/mappingdiagcreator/config/config_template.ini","-e","D:/Projects/DrawIOautomap/your_sample_file.xlsm"],
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"

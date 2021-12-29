@@ -1,6 +1,5 @@
 from entities.identity import Id
 from entities.table_row import TableRow
-from utils import tools
 import re
 
 class SourceRow(TableRow):

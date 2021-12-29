@@ -1,6 +1,5 @@
 from entities.identity import Id
 from entities.table_row import TableRow
-from utils import tools
 import re
 
 class TargetRow(TableRow):
@@ -41,10 +40,7 @@ class TargetRow(TableRow):
 
 
     def create_drawio_out(self):
-        
-        if self.col_name == 'scan_facility_number':
-            print('i am')
-        
+             
         full_refs = ""
         if len(self.rule_set) > 0:
             for rule_ref in self.rule_set:

@@ -1,6 +1,4 @@
 from entities.target_row import TargetRow
-from entities.identity import Id
-from entities.rules_container import RulesContainer
 from entities.table import Table
 
 
